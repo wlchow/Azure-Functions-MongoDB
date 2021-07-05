@@ -36,8 +36,8 @@ namespace AzureFunctionsMongoDB.Functions
             IActionResult returnValue = null;
             try
             {
-                // Find all the documents
-                var result = await _collection.Find(new BsonDocument()).ToListAsync();
+                // Find all the documents, but limit it to 10 documents
+                var result = await _collection.Find(new BsonDocument()).Limit(10).ToListAsync();
 
                 if (result == null)
                 {

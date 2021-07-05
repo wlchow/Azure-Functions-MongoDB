@@ -55,7 +55,7 @@ namespace AzureFunctionsMongoDB.Functions
                           score: {
                             $meta: 'searchScore'
                           }
-                        }}, {$limit: 15}]
+                        }}, {$limit: 15}]);
                 */
 
                 PipelineDefinition<BsonDocument, BsonDocument> pipeline = new BsonDocument[]
