@@ -26,7 +26,7 @@ You will need to add your own `local.settings.json` file which has the following
 ```
 
 ### Atlas Search
-For Atlas Search, you will need to have [loaded the sample data into your Atlas cluster](https://docs.atlas.mongodb.com/sample-data/). This example uses the `sample_mflix` database and the `movies` collection and you will ntte to create an Atlas Search Index for that collection using this [tutorial](https://docs.atlas.mongodb.com/reference/atlas-search/tutorial/create-index-ui/).
+For Atlas Search, you will need to have [loaded the sample data into your Atlas cluster](https://docs.atlas.mongodb.com/sample-data/). This example uses the `sample_mflix` database and the `movies` collection and you will need to create an Atlas Search Index for that collection using this [tutorial](https://docs.atlas.mongodb.com/reference/atlas-search/tutorial/create-index-ui/).
 
 ## Running the Solution
 
