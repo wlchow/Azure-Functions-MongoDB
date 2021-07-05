@@ -38,11 +38,11 @@ When you run this solution in Visual Studio 2019 you will have the following Azu
 
 Test the REST API calls to the Azure Functions using [Postman](https://www.postman.com/).
 ### InsertDocument: [GET] http://localhost:7071/api/InsertDocument
-![insertdocument](images/postman_insertdocument.jpg)
+![insertdocument](img/postman_insertdocument.jpg)
 
 ### GetAllDocuments: [GET] http://localhost:7071/api/GetAllDocuments
-![getalldocuments](images/postman_getalldocuments.jpg)
+![getalldocuments](img/postman_getalldocuments.jpg)
 
 ### AtlasSearch: [GET] http://localhost:7071/api/AtlasSearch/{query}
-![atlassearch](images/postman_atlassearch.jpg)
+![atlassearch](img/postman_atlassearch.jpg)
 
