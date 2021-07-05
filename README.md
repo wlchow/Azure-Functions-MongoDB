@@ -4,6 +4,11 @@ An example of how to integrate MongoDB Atlas with C# Azure Functions. This also 
 
 This is using the [Azure Functions HTTP trigger](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=csharp) to interact with [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). The HTTP trigger will allow you to use this function as a REST API, which we’ll be able to call from [cURL](https://en.wikipedia.org/wiki/CURL), [Postman](https://www.postman.com/), or any custom application.
 
+As a [MongoDB best practice](https://mongodb.github.io/mongo-csharp-driver/2.12/reference/driver/connecting/#re-use):
+>"It is recommended to store a MongoClient instance in a global place, either as a static variable or in an IoC container with a singleton lifetime."
+
+This example uses [dependency injection in .NET Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection) in order to keep a singleton MongoClient instance. 
+
 Note that the AuthorizationLevel is set to Anonymous so you may want to change this to lock access.
 
 ## Prerequisites
