@@ -51,3 +51,4 @@ Test the REST API calls to the Azure Functions using [Postman](https://www.postm
 ### AtlasSearch: [GET] http://localhost:7071/api/AtlasSearch/{query}
 ![atlassearch](img/postman_atlassearch.jpg)
 
+hello world
